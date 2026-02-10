@@ -1,0 +1,5 @@
+@media (min-width: 1024px) {
+  html {
+    font-size: 90%; /* Global scaling adjustment for desktop to match 90% zoom preference */
+  }
+}
