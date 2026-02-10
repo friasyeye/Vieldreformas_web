@@ -6,7 +6,7 @@ import { Phone, Mail, Instagram } from 'lucide-react';
 
 export const Footer: React.FC = () => {
   return (
-    <footer className="bg-slate-900 text-white py-24">
+    <footer className="bg-[#141317] text-white py-24">
       <Container>
         {/* 
            MODIFIED GRID: 
@@ -20,10 +20,10 @@ export const Footer: React.FC = () => {
           <div className="col-span-2 md:col-span-2">
             {/* Logo Image replaced text title */}
             <img
-              src="https://i.ibb.co/C3vNcbys/unnamed-removebg-preview.png"
-              alt="RENOVAMARIN"
+              src="/assets/images/vield_logo.png"
+              alt="Vield Reformas"
               // TRIPLED SIZE AND WHITE COLOR: Increased to h-36 md:h-48, made white with filters
-              className="h-36 md:h-48 w-auto object-contain mb-6 brightness-0 invert"
+              className="h-36 md:h-48 w-auto object-contain mb-6"
             />
             <p className="text-stone-400 font-light max-w-sm">
               Creamos hogares con alma. Reformas exclusivas diseñadas para que cada rincón de tu casa cuente tu historia.
@@ -50,21 +50,21 @@ export const Footer: React.FC = () => {
             <ul className="space-y-4 text-sm font-light text-stone-300">
               <li className="flex items-center gap-3">
                 <Mail className="w-4 h-4 text-stone-500 min-w-[16px]" />
-                <span className="break-words">renovamarin@gmail.com</span>
+                <span className="break-words">vieldreformas@gmail.com</span>
               </li>
               <li className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-stone-500 min-w-[16px]" />
-                <span className="whitespace-nowrap">+34 667 80 49 73</span>
+                <span className="whitespace-nowrap">+34 698 22 30 94</span>
               </li>
               <li>
                 <a
-                  href="https://www.instagram.com/renovamarin/"
+                  href="https://www.instagram.com/vieldreformas/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 hover:text-white transition-colors group"
                 >
                   <Instagram className="w-4 h-4 text-stone-500 group-hover:text-stone-400 transition-colors min-w-[16px]" />
-                  <span>@renovamarin</span>
+                  <span>@vieldreformas</span>
                 </a>
               </li>
             </ul>
@@ -90,7 +90,7 @@ export const Footer: React.FC = () => {
                 The separator '|' is now visible on all screen sizes.
             */}
             <div className="flex flex-nowrap justify-center md:justify-start items-center gap-2 md:gap-4 text-center whitespace-nowrap overflow-x-auto scrollbar-hide">
-              <p>© {new Date().getFullYear()} Renovamarin.</p>
+              <p>© {new Date().getFullYear()} Vield Reformas.</p>
               <span className="inline">|</span>
               <p className="flex items-center gap-1">
                 Diseñado por

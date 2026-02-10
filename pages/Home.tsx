@@ -37,7 +37,7 @@ export const Home: React.FC = () => {
         <div className="relative w-full px-2 md:px-3 lg:px-4 -mt-20 md:-mt-28 h-[75vh] min-h-[600px]">
           <div className="relative w-full h-full overflow-hidden shadow-sm">
             <img
-              src="https://i.ibb.co/k2r6FNt4/Tendencias-en-decoracion-reformas-y-muebles-en-2025-y-2026-decoracion-reformas-integrales-interioris.jpg"
+              src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?q=80&w=2674&auto=format&fit=crop"
               alt="Reformas y Rehabilitaciones en Barcelona"
               className="w-full h-full object-cover object-center"
             />
@@ -52,7 +52,7 @@ export const Home: React.FC = () => {
                 <div className="flex flex-col items-start text-left">
                   {/* Top Label */}
                   <span className="block text-white/90 text-[9px] md:text-[10px] font-sans tracking-[0.2em] mb-6 pl-1">
-                    Reformas y rehabilitaciones en Barcelona
+                    Reformas Integrales en Barcelona
                   </span>
 
                   {/* Main Title - Left Aligned, Two Lines */}
@@ -65,8 +65,8 @@ export const Home: React.FC = () => {
                       text-3xl md:text-5xl lg:text-6xl
                       text-left
                   ">
-                    Construimos tu proyecto soñado,<br />
-                    sin complicación
+                    Transformamos espacios ordinarios<br />
+                    en hogares extraordinarios
                   </h1>
                 </div>
               </FadeIn>
@@ -123,10 +123,10 @@ export const Home: React.FC = () => {
 
             {/* Button */}
             <Button
-              href="https://wa.me/34667804973?text=Hola,%20quisiera%20solicitar%20una%20consulta%20privada."
+              href="https://wa.me/34698223094?text=Hola,%20quisiera%20solicitar%20una%20consulta%20privada."
               target="_blank"
               rel="noopener noreferrer"
-              className="px-8 py-4 text-xs md:text-sm tracking-[0.2em] !bg-slate-900 !text-white hover:!bg-slate-800 transition-colors"
+              className="px-8 py-4 text-xs md:text-sm tracking-[0.2em] !bg-[#141317] !text-white hover:!bg-stone-800 transition-colors"
             >
               SOLICITAR CONSULTA PRIVADA
             </Button>
@@ -143,8 +143,8 @@ export const Home: React.FC = () => {
             <div className="w-full md:w-1/2 order-1 md:order-1">
               <div className="relative aspect-[4/5] md:aspect-[3/4] overflow-hidden bg-stone-200">
                 <img
-                  src="/assets/images/baño_moderno.webp"
-                  alt="Cocina de diseño moderna y elegante en Barcelona"
+                  src="https://images.unsplash.com/photo-1513519245088-0e12902e5a38?q=80&w=2670&auto=format&fit=crop"
+                  alt="Habitación de diseño moderna y elegante en Barcelona"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -182,7 +182,7 @@ export const Home: React.FC = () => {
 
                 <div className="space-y-6">
                   <h3 className="font-display font-bold uppercase tracking-widest text-stone-900 text-lg md:text-xl">
-                    GARANTÍA DE CONFIANZA RENOVAMARIN
+                    GARANTÍA DE CONFIANZA VIELD
                   </h3>
                   <ul className="space-y-4">
                     <li className="flex items-start gap-3">
@@ -214,8 +214,8 @@ export const Home: React.FC = () => {
             <div className="w-full md:w-1/2 order-1 md:order-2">
               <div className="relative aspect-[4/5] md:aspect-[3/4] overflow-hidden bg-stone-200">
                 <img
-                  src="/assets/images/ejecucion_tecnica.webp"
-                  alt="reforma baño con garantía de calidad en Barcelona"
+                  src="https://images.unsplash.com/photo-1631679706909-1844bbd07221?q=80&w=2592&auto=format&fit=crop"
+                  alt="reforma integral con garantía de calidad en Barcelona"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -273,10 +273,10 @@ export const Home: React.FC = () => {
               Todo gran proyecto nace de una conversación. Comparte con nosotros lo que imaginas y te ayudaremos a trazar el camino más seguro para hacerlo realidad. Estamos aquí para asesorarte desde la primera idea hasta el último detalle de la obra.
             </p>
             <Button
-              href="https://wa.me/34667804973?text=Hola,%20vengo%20de%20la%20web.%20Quiero%20un%20presupuesto%20personalizado!"
+              href="https://wa.me/34698223094?text=Hola,%20vengo%20de%20la%20web.%20Quiero%20un%20presupuesto%20personalizado!"
               target="_blank"
               rel="noopener noreferrer"
-              className="md:px-10 md:py-5 md:text-base w-full md:w-auto py-4"
+              className="md:px-10 md:py-5 md:text-base w-full md:w-auto py-4 !bg-[#141317] !text-white hover:!bg-stone-800"
             >
               Pedir asesoría gratuita
             </Button>

@@ -10,6 +10,7 @@ import { Projects } from './pages/Projects';
 import { LegalNotice } from './pages/LegalNotice';
 import { PrivacyPolicy } from './pages/PrivacyPolicy';
 import { Render3d } from './pages/Render3d';
+import { Contact } from './pages/Contact';
 
 // Scroll to top or hash anchor on route change wrapper
 const ScrollToTop = () => {
@@ -46,6 +47,7 @@ const App: React.FC = () => {
             <Route path="/aviso-legal" element={<LegalNotice />} />
             <Route path="/politica-de-privacidad" element={<PrivacyPolicy />} />
             <Route path="/render-3d" element={<Render3d />} />
+            <Route path="/contacto" element={<Contact />} />
           </Routes>
         </div>
         <Footer />

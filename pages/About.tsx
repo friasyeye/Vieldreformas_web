@@ -36,7 +36,7 @@ export const About: React.FC = () => {
           className="w-full h-full object-cover transition-all duration-1000 transform group-hover:scale-105"
         >
           {/* 
-            VÍDEO: Cocina blanca con taburetes de cuero del material de Renovamarin.
+            VÍDEO: Cocina blanca con taburetes de cuero del material de Vield Reformas.
             Optimizado para carga instantánea en móvil y desktop
           */}
           <source src="/assets/videos/video_nosotros.mp4" type="video/mp4" />
@@ -63,7 +63,7 @@ export const About: React.FC = () => {
                 <div className="relative aspect-[3/4] w-full overflow-hidden bg-stone-100 shadow-md">
                   <img
                     src="/assets/images/nosotros1.webp"
-                    alt="Equipo Renovamarin trabajando en reforma integral con rigor técnico Barcelona"
+                    alt="Equipo Vield Reformas trabajando en reforma integral con rigor técnico Barcelona"
                     className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 hover:scale-105"
                   />
                 </div>
@@ -73,7 +73,7 @@ export const About: React.FC = () => {
             <div className="md:col-span-7 order-1 md:order-2">
               <FadeIn delay={0}>
                 <p className="space-y-8 text-lg md:text-2xl font-light text-stone-600 leading-relaxed md:leading-loose mb-12 text-center md:text-left">
-                  Más de tres décadas a pie de obra nos han enseñado que la calidad real está en lo que no se ve: la precisión técnica y la integridad estructural. En Renovamarin, eliminamos la incertidumbre con presupuestos honestos, plazos rigurosos y un control total de la construcción. Tu hogar es tu mayor inversión; nosotros aportamos el oficio necesario para garantizar un resultado tan sólido como estético.
+                  Más de tres décadas a pie de obra nos han enseñado que la calidad real está en lo que no se ve: la precisión técnica y la integridad estructural. En Vield Reformas, eliminamos la incertidumbre con presupuestos honestos, plazos rigurosos y un control total de la construcción. Tu hogar es tu mayor inversión; nosotros aportamos el oficio necesario para garantizar un resultado tan sólido como estético.
                 </p>
 
                 <div className="hidden md:grid grid-cols-3 gap-8 pt-8 border-t border-stone-200">

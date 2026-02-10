@@ -10,7 +10,7 @@ export const WhatsAppButton: React.FC = () => {
     }, []);
 
     const handleClick = () => {
-        const phoneNumber = '34667804973'; // Número de WhatsApp de Renovamarin
+        const phoneNumber = '34698223094'; // Número de WhatsApp de Vield Reformas
         const message = encodeURIComponent('Hola, vengo de la web, quiero solicitar información');
         const whatsappUrl = `https://wa.me/${phoneNumber}?text=${message}`;
         window.open(whatsappUrl, '_blank');

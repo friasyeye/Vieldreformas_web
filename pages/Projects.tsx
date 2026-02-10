@@ -225,7 +225,7 @@ export const Projects: React.FC = () => {
                 Síguenos en Instagram para descubrir el día a día de nuestras obras y proyectos recién terminados.
               </p>
               <Button
-                href="https://www.instagram.com/renovamarin/"
+                href="https://www.instagram.com/vieldreformas/"
                 target="_blank"
                 rel="noopener noreferrer"
                 variant="outline"

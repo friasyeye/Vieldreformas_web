@@ -10,7 +10,7 @@ export const PrivacyPolicy: React.FC = () => {
           <h1 className="font-display font-bold text-4xl md:text-5xl text-brand-accent mb-12 uppercase tracking-wide leading-none">
             Política de Privacidad
           </h1>
-          
+
           <div className="prose prose-stone max-w-none text-stone-600 font-light leading-relaxed">
             <p className="mb-8">
               De conformidad con el Reglamento (UE) 2016/679 (RGPD) y la Ley Orgánica 3/2018 (LOPDGDD), se informa al usuario sobre el tratamiento de sus datos personales:
@@ -24,7 +24,7 @@ export const PrivacyPolicy: React.FC = () => {
                 <p>Joel Marin Hidalgo</p>
                 <p>NIF: 39436875V</p>
                 <p>Domicilio: Ronda guineueta vella 68, 08042, Barcelona</p>
-                <p>Email: renovamarin@gmail.com</p>
+                <p>Email: vieldreformas@gmail.com</p>
               </section>
 
               <section>
@@ -68,7 +68,7 @@ export const PrivacyPolicy: React.FC = () => {
                   <li>Solicitar la portabilidad de los mismos.</li>
                 </ul>
                 <p className="mt-6">
-                  Para ejercer sus derechos, el usuario puede enviar una solicitud por escrito al correo electrónico: <strong className="text-stone-900">renovamarin@gmail.com</strong>.
+                  Para ejercer sus derechos, el usuario puede enviar una solicitud por escrito al correo electrónico: <strong className="text-stone-900">vieldreformas@gmail.com</strong>.
                 </p>
               </section>
             </div>

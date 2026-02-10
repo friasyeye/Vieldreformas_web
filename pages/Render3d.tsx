@@ -49,12 +49,12 @@ export const Render3d: React.FC = () => {
                             {/* AFTER IMAGE */}
                             <div className="w-full md:w-[45%] group relative">
                                 <div className="absolute top-0 left-0 bg-brand-accent text-stone-900 text-xs font-bold uppercase tracking-widest py-2 px-4 z-10">
-                                    Propuesta Renovamarin
+                                    Propuesta Vield Reformas
                                 </div>
                                 <div className="aspect-[4/3] overflow-hidden bg-stone-100 shadow-xl ring-1 ring-stone-900/5">
                                     <img
                                         src="/assets/images/render3d.webp"
-                                        alt="Propuesta de diseño 3D realista de Renovamarin"
+                                        alt="Propuesta de diseño 3D realista de Vield Reformas"
                                         className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
                                     />
                                 </div>
@@ -123,7 +123,7 @@ export const Render3d: React.FC = () => {
                 {/* SECTION D: CTA */}
                 <FadeIn className="text-center pb-24">
                     <Button
-                        href="https://wa.me/34667804973?text=Hola,%20me%20gustaría%20solicitar%20mi%20render%203D%20por%2020€"
+                        href="https://wa.me/34698223094?text=Hola,%20me%20gustaría%20solicitar%20mi%20render%203D%20por%2020€"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="w-full md:w-auto !text-base md:!text-xl !py-4 md:!py-6 !px-8 md:!px-12 !bg-brand-accent !text-stone-900 hover:!bg-stone-900 hover:!text-white transition-colors duration-300 shadow-lg hover:shadow-xl"

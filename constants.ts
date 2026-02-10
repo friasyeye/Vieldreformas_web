@@ -4,7 +4,7 @@ export const NAV_ITEMS: NavItem[] = [
   { label: 'Proyectos', path: '/proyectos' },
   { label: 'Servicios', path: '/servicios' },
   { label: 'Nosotros', path: '/nosotros' },
-  { label: 'Pedir presupuesto', path: '/contacto' },
+  { label: 'Calculadora', path: '/contacto' },
 ];
 
 export const PROJECTS: Project[] = [
@@ -109,7 +109,7 @@ export const PROJECTS: Project[] = [
 export const TESTIMONIALS: Testimonial[] = [
   {
     id: 1,
-    text: "Ha sido un acierto elegir a Renovamarin. Después de pedir varios presupuestos, nos decidimos por ellos por la garantía que nos daban. Reformamos el terrado y el baño, y el resultado ha sido impecable.",
+    text: "Ha sido un acierto elegir a Vield Reformas. Después de pedir varios presupuestos, nos decidimos por ellos por la garantía que nos daban. Reformamos el terrado y el baño, y el resultado ha sido impecable.",
     author: "Sandra P.",
     role: "Piso céntrico"
   },
@@ -127,7 +127,7 @@ export const TESTIMONIALS: Testimonial[] = [
   },
   {
     id: 4,
-    text: "Teníamos un problema serio de filtraciones en el chalet. Nos quedamos con Renovamarin por la seguridad técnica que nos transmitieron. Se nota que llevan toda la vida en esto.",
+    text: "Teníamos un problema serio de filtraciones en el chalet. Nos quedamos con Vield Reformas por la seguridad técnica que nos transmitieron. Se nota que llevan toda la vida en esto.",
     author: "Roberto y Lucía",
     role: "Vivienda Unifamiliar"
   },

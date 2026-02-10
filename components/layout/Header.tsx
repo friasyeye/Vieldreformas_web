@@ -57,8 +57,8 @@ export const Header: React.FC = () => {
             className="relative z-50 flex items-center"
           >
             <img
-              src="https://i.ibb.co/C3vNcbys/unnamed-removebg-preview.png"
-              alt="Renovamarin - Reformas Integrales Barcelona"
+              src="/assets/images/vield_logo.png"
+              alt="Vield Reformas - Reformas Integrales Barcelona"
               // Adjusted size: large but more compact for header height
               className="h-10 md:h-16 w-auto object-contain"
             />
@@ -78,7 +78,7 @@ export const Header: React.FC = () => {
                       className="
                         font-sans text-[11px] font-bold uppercase tracking-[0.15em] 
                         px-5 py-2.5 bg-stone-50 rounded-none
-                        hover:bg-slate-900 hover:text-white transition-all duration-300
+                        hover:bg-[#141317] hover:text-white transition-all duration-300
                       "
                     >
                       {item.label}
@@ -105,9 +105,9 @@ export const Header: React.FC = () => {
             {/* 3. Mobile CTA Button - Visible only on mobile, next to burger */}
             <Link
               to="/contacto"
-              className="md:hidden font-sans text-[10px] font-bold uppercase tracking-[0.12em] px-3 py-2 bg-slate-900 text-white transition-all duration-300"
+              className="md:hidden font-sans text-[10px] font-bold uppercase tracking-[0.12em] px-3 py-2 bg-[#141317] text-white transition-all duration-300"
             >
-              Presupuesto
+              Calculadora
             </Link>
 
             {/* 4. Mobile Menu Toggle - Far right */}
